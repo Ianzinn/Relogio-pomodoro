@@ -14,3 +14,15 @@ CMakeLists.txt linguist-vendored
 *.cpp linguist-vendored
 *.h linguist-vendored
 *.kt linguist-vendored
+# Ignorar todos os arquivos dentro das pastas específicas de C++ ou de plataformas
+android/* linguist-vendored
+ios/* linguist-vendored
+cpp/* linguist-vendored
+jni/* linguist-vendored
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
+*.make linguist-vendored
+*.cpp linguist-generated
+*.h linguist-generated
+git ls-files | grep "\.cpp"
+git ls-files | grep "\.h"
