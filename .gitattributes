@@ -25,3 +25,11 @@ CMakeLists.txt linguist-vendored
 *.cpp linguist-generated
 *.h linguist-generated
 
+# Ignorar arquivos de C++ e cabeçalhos
+*.cpp linguist-vendored
+*.h linguist-vendored
+
+# Ignorar arquivos Kotlin, CMake, e outros se necessário
+*.kt linguist-vendored
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
