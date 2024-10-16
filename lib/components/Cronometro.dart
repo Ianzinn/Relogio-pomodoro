@@ -30,7 +30,7 @@ class Cronometro extends StatelessWidget {
               scale: scale, 
               child: AnimatedContainer(
                 duration: const Duration(seconds: 1),
-                color: store.estaEstudando() ? Colors.orange : Colors.blue,
+                color: store.estaEstudando() ? Color(0xFFfe322f) : Colors.blue,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [

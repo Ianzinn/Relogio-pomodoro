@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-        title: 'Relógio Pomodoro',
+        debugShowCheckedModeBanner: false,
+        title: 'Relógio pomodoro',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
