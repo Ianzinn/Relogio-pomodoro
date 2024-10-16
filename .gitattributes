@@ -24,5 +24,4 @@ CMakeLists.txt linguist-vendored
 *.make linguist-vendored
 *.cpp linguist-generated
 *.h linguist-generated
-git ls-files | grep "\.cpp"
-git ls-files | grep "\.h"
+
