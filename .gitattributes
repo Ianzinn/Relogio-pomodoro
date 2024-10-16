@@ -3,3 +3,6 @@
 *.yaml linguist-vendored
 *.md linguist-vendored
 *.html linguist-vendored
+*.cpp linguist-vendored
+*.h linguist-vendored
+CMakeLists.txt linguist-vendored
