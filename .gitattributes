@@ -11,3 +11,5 @@
 CMakeLists.txt linguist-vendored
 *.swift linguist-vendored
 *.js linguist-vendored
+*.c++ linguist-vendored
+*.Kotlin linguist-vendored
